@@ -1,0 +1,22 @@
+package accountInfo;
+
+public class AccountHolder {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String accountHolderName;
+		String accountNum;
+		int balance;
+		int age;
+		
+ if (age>20 && balance>20000) {
+	 
+	 
+ }
+
+	}
+
+	
+	
+}

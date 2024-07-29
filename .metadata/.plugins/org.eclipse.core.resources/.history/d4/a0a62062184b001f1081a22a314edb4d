@@ -1,0 +1,18 @@
+package accountInfo;
+
+public class AccountHolder {
+
+	
+		
+		
+		
+		String accountHolderName;
+		String accountNum;
+		int balance;
+		int age;
+
+	
+
+	
+	
+}

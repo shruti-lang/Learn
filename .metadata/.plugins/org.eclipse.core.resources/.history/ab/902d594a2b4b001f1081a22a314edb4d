@@ -1,0 +1,25 @@
+import java.io.IOException;
+
+
+
+import ch.qos.logback.core.net.SyslogOutputStream;
+import de.redsix.pdfcompare.PdfComparator;
+import de.redsix.pdfcompare.RenderingException;
+
+public class test1 {
+	
+	String file1="C:/Learn/PdfComparision/Data/MohanSResume1";
+	String file2="C:\\Learn\\PdfComparision\\Data\\MohanSResume2";
+	String resultFile="./ResultSet";
+
+	public static void main(String[] args) throws RenderingException, IOException {
+		// TODO Auto-generated method stub
+		new PdfComparator("file1", "file2").compare().writeTo("resultfile");
+		System.out.println("Process Completed");
+		String  proj =System.getProperty("user.dir");
+		System.out.println(proj);
+		
+
+	}
+
+}

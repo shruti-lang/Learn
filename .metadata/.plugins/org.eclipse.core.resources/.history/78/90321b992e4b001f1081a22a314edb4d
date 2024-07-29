@@ -1,0 +1,10 @@
+package testngHelloWorld;
+
+public class TestHelloWorld {
+     
+	public void testHelloWorld() {
+		
+		System.out.println("helloWorld");
+		
+	}
+}

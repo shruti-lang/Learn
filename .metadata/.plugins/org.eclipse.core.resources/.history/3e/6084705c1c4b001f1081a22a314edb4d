@@ -1,0 +1,18 @@
+import java.io.IOException;
+
+import de.redsix.pdfcompare.PdfComparator;
+import de.redsix.pdfcompare.RenderingException;
+
+public class test1 {
+	
+	String file1="./Data/MohanSResume1";
+	String file2="./Data/MohanSResume1";
+
+	public static void main(String[] args) throws RenderingException, IOException {
+		// TODO Auto-generated method stub
+		new PdfComparator("expected.pdf", "actual.pdf").compare().writeTo("diffOutput");
+
+
+	}
+
+}
