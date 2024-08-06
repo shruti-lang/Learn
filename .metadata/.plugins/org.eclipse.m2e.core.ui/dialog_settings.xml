@@ -43,6 +43,7 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="sel"/>
 			<item value="testngHelloWorld"/>
 			<item value="pdf.test"/>
 			<item value="ExcelUtil1"/>
@@ -53,6 +54,7 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
+			<item value="sel"/>
 			<item value="testngHelloWorld"/>
 			<item value="PdfComparision"/>
 			<item value="ExcelUtil1"/>
@@ -75,5 +77,11 @@
 	<section name="org.eclipse.m2e.core.pom.overview">
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.ui.internal.dialogs.MavenRepositorySearchDialog">
+		<item key="width" value="480"/>
+		<item key="height" value="838"/>
+		<item key="x" value="720"/>
+		<item key="y" value="0"/>
 	</section>
 </section>
