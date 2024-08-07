@@ -60,7 +60,6 @@ INDEX VERSION 1.134+C:\Learn\.metadata\.plugins\org.eclipse.jdt.core
 3765475381.index
 3592929121.index
 1690527692.index
-1657330681.index
 3123461695.index
 2255146767.index
 3525074037.index
