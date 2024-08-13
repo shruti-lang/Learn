@@ -25,6 +25,7 @@ public class Test2 {
  
  public static void runTest() {
 		driver.get("https://www.ellucian.com/");
+		System.out.println(driver.getTitle());
 		driver.quit();
  }
 	

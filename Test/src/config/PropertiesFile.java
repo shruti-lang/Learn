@@ -31,10 +31,9 @@ public class PropertiesFile {
 	
 	public static void writePropertiesFile() throws IOException {
 		FileOutputStream    output = new FileOutputStream("C:\\Learn\\Test\\src\\config\\config.properties");
-		prop.setProperty("output", "test");
+		prop.setProperty("output", "pass");
 		prop.store(output, "print");
-		System.out.println();
-		
+		System.out.println();		
 	}
 
 }
